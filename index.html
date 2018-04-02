@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Antonio De Marie</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+</head>
+<body>
+
+    <div id="display">
+    	<h1></h1>
+    	<div class="closeTag">
+    		<p>X</p>
+    	</div>
+    </div>
+
+    <div id="formDisplay">
+    	<h1></h1>
+    	<div class="closeTag">
+    		<p>X</p>
+    	</div>
+
+	    <form class="form" onsubmit="return false;">
+
+            <p class="name">
+	         	<input type="text" name="name" placeholder="John" />
+            </p>
+
+            <p class="surname">
+	         	<input type="text" name="surname" placeholder="Doe" />
+            </p>
+
+            <p class="email">
+	         	<input type="text" name="email" placeholder="mail@example.com" />
+            </p>
+
+            <p class="text">
+	         	<textarea name="text" placeholder="Write here"></textarea>
+            </p>
+
+            <p class="submit">
+	         	<input type="submit" value="SEND" />
+            </p>
+
+        </form>
+
+    </div>
+
+    <div id="menuBar">
+
+	    <div id="btn">
+    		<div id="firstLine" class="style"></div>
+    		<div id="secondLine" class="style"></div>
+    		<div id="thirdLine" class="style"></div>
+    	</div>
+
+    	<div id="menu">
+    		
+			<p id="box">Contatti</p>
+			<p id="boxTwo">Portfolio</p>		
+			<p id="boxThree">Home</p>
+    		
+    	</div>
+    	
+    </div>
+
+    <div id="main">
+
+    	<div id="description">
+
+    		<div id="title">
+	    		<h1 id="first">Ciao,<br>sono Antonio</h1>
+	    		<h1>Front End Web Developer</h1>
+    		</div>
+
+    		<ul id="logos">
+    			<li><div class="ball">HTML5</div></li>
+    			<li><div class="ball">CSS3</div></li>
+    			<li><div class="ball">JS</div></li>
+    		</ul>
+    		
+    	</div>
+
+    	<div id="portrait">
+
+	    	<div id="polaroid">
+
+	    		<div id="scotch2">
+			        <div class="box2"></div>
+			        <div class="box2"></div>
+			        <div class="box2"></div>
+			        <div class="box2"></div>
+			    <!--<div class="box2"></div>-->
+			    </div>
+
+	    		<div id="imgContainer">
+			    	<img src="img\DSC_0114.jpg">
+		    	</div>
+
+		    	<div id="scotch">
+			        <div class="box"></div>
+			        <div class="box"></div>
+			        <div class="box"></div>
+			        <div class="box"></div>
+			    <!--<div class="box"></div>-->
+			    </div>
+
+	    	</div>
+
+    	</div>
+
+	</div>
+
+	<div id="portfolio">
+
+		<h1>Portfolio</h1>
+
+		<div class="frame" id="frameOne">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 1</p>
+		</div>
+
+		<div class="frame" id="frameTwo">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 2</p>
+		</div>
+
+		<div class="frame" id="frameThree">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 3</p>
+		</div>
+
+		<div class="frame" id="frameFour">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 4</p>
+		</div>
+
+		<div class="frame" id="frameFive">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 5</p>
+		</div>
+
+		<div class="frame" id="frameSix">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 6</p>
+		</div>
+
+		<div class="frame" id="frameSeven">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 7</p>
+		</div>
+
+		<div class="frame" id="frameEight">
+			<div class="underline"></div>
+			<div class="mockUp"></div>
+			<p class="mockUpTitle">progetto 8</p>
+		</div>
+		
+	</div>
+
+	<div id="contacts">
+
+		<h1>Contatti e Link</h1>
+
+		<div id="socialSection">
+			
+			<p id="contactBtn">Scrivimi</p>
+			
+		    <ul id="socialList">
+			    <li><a href="https://github.com/Dema7" target="_blank" id="git"><img src="img/GitHub-Mark-120px-plus.png"></a></li>
+			    <li><a href="https://codepen.io/Dema7/" target="_blank" id="pen"><img src="img/Button-Black-Large.png"></a></li>
+		    </ul>
+
+		</div>
+		
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+-->
+<script>
+	window.jQuery || document.write('<script type="text/javascript" src="js/jquery-3.2.1.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script_canvas.js"></script>
+</body>
+</html>
